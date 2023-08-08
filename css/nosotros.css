@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: beige;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Staatliches", cursive;
+    font-size: 20px;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 3.5em;
+}
