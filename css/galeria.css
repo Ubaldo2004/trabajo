@@ -51,4 +51,43 @@ header {
     font-size: 24px;
     height: 3.5em;
 }
+.ropa {
+    text-shadow: 2px 2px 4px #b12121;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+    transition: text-shadow 1.5s, filter 1.5s;
+    animation: hover-animation 5s infinite;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ropa:hover{
+    text-shadow: 4px 4px 8px white;
+    filter: blur(2px);
+}
+
+
+@keyframes  hover-animation {
+    0%{
+        text-shadow: 4px 4px 8px #b12121;
+        filter: blur(0px);
+    }
+    50%{
+        text-shadow: 4px 4px 16px beige;
+        filter: blur(0px);
+    }
+    100%{
+        text-shadow: 4px 4px 8px #b12121;
+        filter: blur(0px);
+    }
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin: 100px;
+}
 
