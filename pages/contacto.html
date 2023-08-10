@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>SM</title>
     <link rel="stylesheet" href="../css/contacto.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -48,6 +48,55 @@
             </div>
         </nav>
     </header>
+    <button class="open-modal-btn">Iniciar sesion</button>
+    <input type="checkbox" id="modal-toggle" class="modal-toggle">
+<div class="modal-overlay">
+<div class="modal-content">
+    <label for="modal-toggle" class="close-modal-btn">Cerrar</label>
+    <h2>Inicciar Sesion</h2>
+    <form>
+        <input type="text" placeholder="nombre de usuario">
+        <input type="Password" placeholder="Contraseña">
+        <button type="submit">Inicar Sesion</button>
+    </form>
+</div>
+</div>
+    <fieldset>
+        <legend>Registrarse</legend>
+
+        <form action="#" method="post">
+            <div class="form">
+                <label for="email">Email:</label>
+                <input type="email" required placeholder="ingrese mail">
+            </div>
+            <div>
+                <label for="Password"> Constraseña </label>
+                <input type="password" name="Password" id="Password" placeholder="ingrese contraseña">
+            </div>
+            <div class="form">
+                <label for="numero"> Numero de celular</label>
+                <input type="number">
+            </div>
+            <div class="form">
+                <label>Recibir Notificaciones de descuentos:</label>
+                <label for="option1">Si</label>
+                <input type="checkbox">
+                <label for="option2">No</label>
+                <input type="checkbox">
+            </div>
+                <button type="reset">Resetear</button>
+                <button type="submit">Enviar</button>
+                <p class="aviso">Crearse una cuenta en nuestro sitio lo benefeciara para tener descuentos o cupones, ya ue al ser socio de nuestra pagina es porque esta confiando en nosotros</p>
+
+        </form>
+    </fieldset>
+    <footer>
+        <a href="../index.html">Inicio</a>
+        <a href="./galeria.html">Galeria</a>
+        <a href="./maercado.html">Shop</a>
+        <a href="./contacto.html">Registrarse</a>
+        <a href="./nosotros.html">Nosotros</a>
+        </footer>
 </body>
 
 </html>
