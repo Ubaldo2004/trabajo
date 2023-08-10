@@ -1,6 +1,7 @@
-*{
+/*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: black;
@@ -68,6 +69,23 @@ header {
     filter: blur(2px);
 }
 
+.Remeras {
+    text-shadow: 2px 2px 4px #b12121;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+    transition: text-shadow 1.5s, filter 1.5s;
+    animation: hover-animation 5s infinite;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Remeras:hover{
+    text-shadow: 4px 4px 8px white;
+    filter: blur(2px);
+}
+
 
 @keyframes  hover-animation {
     0%{
@@ -89,5 +107,183 @@ header {
     justify-content: space-between;
     height: 200px;
     margin: 100px;
+}
+
+
+footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    margin: 100px;
+    font-family: "Staatliches", cursive;
+}
+
+footer > a:hover{
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 3.5em;
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: beige;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    font-family: "Staatliches", cursive;
+    font-size: 20px;
+    color: black;
+    transition: font-size 0.3s, color 0.3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+}
+
+.ropa {
+    text-shadow: 2px 2px 4px #b12121;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+    transition: text-shadow 1.5s, filter 1.5s;
+    animation: hover-animation 5s infinite;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ropa:hover{
+    text-shadow: 4px 4px 8px white;
+    filter: blur(2px);
+}
+
+.Remeras {
+    text-shadow: 2px 2px 4px #b12121;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+    transition: text-shadow 1.5s, filter 1.5s;
+    animation: hover-animation 5s infinite;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Remeras:hover{
+    text-shadow: 4px 4px 8px white;
+    filter: blur(2px);
+}
+
+
+@keyframes  hover-animation {
+    0%{
+        text-shadow: 4px 4px 8px #b12121;
+        filter: blur(0px);
+    }
+    50%{
+        text-shadow: 4px 4px 16px beige;
+        filter: blur(0px);
+    }
+    100%{
+        text-shadow: 4px 4px 8px #b12121;
+        filter: blur(0px);
+    }
+}
+
+.respon {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galerera {
+    flex: 1;
+    max-width: 200px;
+}
+
+.galerera img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+.col {
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    margin: 100px;
+    font-family: "Staatliches", cursive;
+}
+
+footer > a:hover{
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 3.5em;
 }
 
