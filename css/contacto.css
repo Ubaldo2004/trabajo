@@ -122,38 +122,40 @@ header {
     display: block;
 }
 
-.form {
+.form{
     margin: 8px;
 
 }
-
-.edad {
+.edad{
     display: inline-block;
 }
 
-fieldset {
-    margin: 100px;
+fieldset{
     background-color: beige;
     border-radius: 10px;
 
 }
-
-button {
+button{
     background-color: black;
-    color: beige;
+    color: white;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
 
 }
-
-h1 {
+h1{
     color: black;
 }
 
-input {
+input{
     border-radius: 10px;
     background-color: aliceblue;
+}
+
+section{
+    color: black;
+    background-color: beige;
+    margin: 100px;
 }
 
 footer {
